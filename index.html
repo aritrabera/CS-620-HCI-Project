@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS 620 Final Project</title>
+  <meta name="keywords" content="CS 620 Final Project..">
+  <meta name="description" content="CS 620 Final Project: Web accessibility Testing Tool">
+
+  <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+ 
+</head>
+ <style>
+				unknown-element {
+					display: block;
+				}
+				.display {
+					display: NONE;
+				}
+				.visibility {
+					visibility: hidden;
+				}
+			</style>
+<body>
+
+			
+<div id="content-wrapper">
+  <header class="header header--bg">
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="#" title="Reloads the home page again">Web accessibility Testing Tool</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#" >HOME</a></li>
+            <li><a href="#">Text </a></li>
+            <li><a href="#">Audio </a></li> 
+            <li><a href="#">Video </a></li> 
+            <li><a href="#">Input Form  </a></li> 
+            <li><a href="#">Hyperlink </a></li> 
+            
+          </ul>
+        </div>
+      </nav>		
+	  
+      <div class="header__content text-center">
+        <span class="header__content__block">Welcome</span>
+        <h1 class="header__content__title">To the Web Accessibility testing tool Website</h1>
+        <ul class="header__content__sub-title">
+         
+        </ul>
+        <a class="header__button" href="#">Do you want to test the accessibility tool? Press ALT+ R to activate or deactivate. Press "Shift" for auto play entire website</a>
+		
+		
+      </div>
+	  
+      <div class="social-icon pull-right">
+        <ul>
+          <li><a aria-label="Facebook" href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
+          <li><a aria-label="twitter" href="#"><i class="flaticon-twitter-logo"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container about__container--narrow">
+      <div class="page-section">
+        <h2 aria-label="about the website" class="page-section__title">ABOUT THE WEBSITE</h2>
+          <img class="page-section__title-style" src="assets/images/title-style.png" alt="Ari image">
+          <p class="page-section__paragraph">This website is developed to test an integrated screen reader </p>
+          <div class="row gutters-80">
+            <div class="col-md-4">
+              <div class="about__image">
+                <img src="assets/images/IMG_0726.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-8 about__content">
+              <p class="about__description">With Technological advancement, an extraordinary amount of data is available over the internet. People with disabilities have accessibility issues that restrict them from accessing websites. This paper will discuss how any website can integrate a screen reader tool for a visually impaired person and help them use, access, and navigate a website using a web browser. Most of the websites that are accessed by the general public are now developed in such a way that a person with a disability can access and perform all the tasks on that website. However, they don’t provide default screen reader alongside the web content. We would be designing a tool along with a website that has an integrated screen reader.</p>
+              <div class="row row--margin-top">
+                <div class="col-md-4">
+                  <p class="about__bio"><strong>Developed by</strong> Aritra Bera</p>
+                  <p class="about__bio"><strong>Major(s) :</strong> Computer Science & Engineering</p>
+                </div>
+                <div class="col-md-4">
+				 <p class="about__bio"><strong>University :</strong> University of Nevada, Reno</p>
+                  <p class="about__bio"><strong>Course :</strong> CS 620</p>
+                 
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <button type="button" class="button button--colorful button--margin" href="#">Test Button 1</button>
+                </div>
+                <div class="col-md-4">
+                  <button type="button" class="button button--colorful button--margin" href="#">Test Button 2</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skill skill--bg">
+    <div class="container skill__container--narrow">
+      <div class="page-section">
+        <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
+        <img class="page-section__title-style" src="assets/images/title-style-white.png" alt="">
+        <p class="page-section__paragraph page-section__paragraph--white">I am new to web accessibility. I am learning the tips an dtricks of acccessibility </p>
+        <div class="row gutters-60">
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/adobe-photoshop.png" alt="">
+              <h4 class="skill__single-part__title">React</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/adobe-illustrator.png" alt="">
+              <h4 class="skill__single-part__title">Mongo DB</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #FFAC1B;;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/adobe-after-effects.png" alt="">
+              <h4 class="skill__single-part__title">Java</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #C99AFF;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service">
+    <div class="container">
+      <div class="page-section">
+        <h2 class="page-section__title">Input Form</h2>
+        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+        <p class="page-section__paragraph">Sample text..</p>
+		
+		
+		<div class="row gutters-70">
+          <div class="col-md-4">
+           <form class="service__single-section__title">
+  First name:<br>
+  <input aria-label="first name" type="text" name="firstname"><br>
+  Last name:<br>
+  <input aria-label="last name" type="text" name="lastname">
+</form>
+          </div>
+          <div class="col-md-4">
+            
+          </div>
+          <div class="col-md-4">
+            
+          </div>
+        </div>
+		
+		
+        <div class="row gutters-70">
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/logo-design.png" alt="">
+              <h4 class="service__single-section__title">Information</h4>
+              <p class="service__single-section__paragraph">Sample text.. </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/website-design.png" alt="">
+              <h4 class="service__single-section__title">W3C format</h4>
+              <p class="service__single-section__paragraph">Sample text.. </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/support.png" alt="">
+              <h4 class="service__single-section__title">Accessibility mandate</h4>
+              <p class="service__single-section__paragraph">Sample text.. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="overview overview--bg">
+    <div class="container">
+      <div class="page-section">
+        <div class="row gutters-140">
+        <div class="col-xs-6 col-lg-3 overview__single-section">
+          <i class="material-icons">headset_mic</i>
+          <h2 class="overview__single-section__number"></h2>
+          <p class="overview__single-section__title">People should be able to hear what they see</p>
+        </div>
+        <div class="col-xs-6 col-lg-3 overview__single-section">
+          <i class="material-icons">mood</i>
+          <h2 class="overview__single-section__number"></h2>
+          <p class="overview__single-section__title">Should be easy to access</p>
+        </div>
+        <div class="col-xs-6 col-lg-3 overview__single-section">
+          <i class="material-icons">assignment_turned_in</i>
+          <h2 class="overview__single-section__number"></h2>
+          <p class="overview__single-section__title">Use the website completely</p>
+        </div>
+        <div class="col-xs-6 col-lg-3 overview__single-section">
+          <i class="material-icons">local_bar</i>
+          <h2 class="overview__single-section__number"></h2>
+          <p class="overview__single-section__title">Access to all</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="container">
+      <div class="page-section">
+        <h2 class="page-section__title">Image Test</h2>
+        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+        <p class="page-section__paragraph">Sample text.. </p>
+        <div class="portfolio__button-group">
+          <a class="button button--default" data-filter="all" href="#">ALL</a>
+          <a class="button button--default" data-filter=".category-a" href="#">Text 1</a>
+          <a class="button button--default" data-filter=".category-b" href="#">Text 2</a>
+          <a class="button button--default" data-filter=".category-c" href="#">Text 3</a>
+          <a class="button button--default" data-filter=".category-d" href="#">Text 4</a>
+        </div>
+        <div class="row gutters-40">
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-a category-b category-c" data-order="1">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-1.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>Accessibility</h4>
+                  <p>Image</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-a category-c" data-order="2">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-2.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>Accessibility</h4>
+                  <p>Image</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-c" data-order="3">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-3.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>Accessibility</h4>
+                  <p>Image</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gutters-40">
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-b category-d" data-order="4">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-4.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>Accessibility</h4>
+                  <p>Image</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-b category-d" data-order="5">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-5.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>Accessibility</h4>
+                  <p>Image</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-d" data-order="6">
+              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-6.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>Accessibility</h4>
+                  <p>Image</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider slider--bg">
+    <div id="myCarousel" class="carousel container slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="carousel-content">
+            <div class="">
+              <div class="text-center">
+                <img src="assets/images/IMG_0726.jpg" alt="">
+                <h4>Aritra Bera</h4>
+                <h6>Designer</h6>
+                <p>When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use. </p>
+                <div class="rating">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="carousel-content">
+            <div class="">
+              <div class="text-center">
+                <img class="carousel-person-image" src="assets/images/IMG_0726.jpg" alt="">
+                <h4>Aritra Bera</h4>
+                <h6>Photographer</h6>
+                <p>Making the web accessible benefits individuals, businesses, and society. International web standards define what is needed for accessibility. </p>
+                <div class="rating">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="carousel-content">
+            <div class="">
+              <div class="text-center">
+                <img class="carousel-person-image" src="assets/images/IMG_0726.jpg" alt="">
+                <h4>Aritra Bera</h4>
+                <h6>Designer</h6>
+                <p>The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability. Thus the impact of disability is radically changed on the Web because the Web removes barriers to communication and interaction that many people face in the physical world. However, when websites, applications, technologies, or tools are badly designed, they can create barriers that exclude people from using the Web.</p>
+                <div class="rating">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="container">
+      <div class="page-section">
+        <h2 class="page-section__title">MY TEAM</h2>
+        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+        <p class="page-section__paragraph">I am an one man army </p>
+        <div class="row gutters-40">
+          <div class="col-md-6 col-lg-3">
+            <div class="thumbnail">
+              <img class="img-responsive" src="assets/images/IMG_0726.jpg" alt="">
+              <h4 class="team__single-section__name">Aritra Bera</h4>
+              <p class="team__single-section__title">FOUNDER</p>
+
+              <div class="team__overlay">
+                <div class="team__overlay__content">
+                  <div class="team__single-section--backPage">
+                    <h4 style="padding-left: 0;" class="team__single-section__name">Aritra Bera</h4>
+                    <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
+                    <p class="team__single-section--backPage__title">Java <span class="team__single-section--backPage__percent90">90&#37;</span></p>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
+                        <span class="progress-bar--dot-main"></span>
+                        <span class="progress-bar--dot"></span>
+                      </div>
+                    </div>
+                    <p class="team__single-section--backPage__title">mongo DB <span class="team__single-section--backPage__percent80">80&#37;</span></p>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
+                        <span class="progress-bar--dot-main"></span>
+                        <span class="progress-bar--dot"></span>
+                      </div>
+                    </div>
+                    <p class="team__single-section--backPage__title">React <span class="team__single-section--backPage__percent70">70&#37;</span></p>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
+                        <span class="progress-bar--dot-main"></span>
+                        <span class="progress-bar--dot"></span>
+                      </div>
+                    </div>
+                    <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
+                    <div class="social-icons">
+                      <ul>
+                        <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
+                        <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
+                        <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+         
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="brand-logo brand-logo--bg">
+    <div class="container">
+      <div class="row">
+    
+      </div>
+    </div>
+  </section>
+
+  <section class="blog">
+    <div class="container">
+      <div class="page-section">
+        <h2 class="page-section__title">Test Hyperlink</h2>
+        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+        <p class="page-section__paragraph">This is a sample text </p>
+        <div class="row gutters-40">
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="assets/images/blog-1.png" alt="">
+             
+              <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/"><h4 class="blog__single__title">W3C Home</h4></a>
+              <p class="blog__single__paragraph">This is a sample text <a href="http://www.w3.org/"><span tabindex="0"
+      role="link"
+      onclick="goToLink(event, 'http://www.w3.org/')"
+      onkeydown="goToLink(event, 'http://www.w3.org/')">
+  W3C website
+</span></a></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/blog-2.png" alt="">
+            
+              <a href="#"><h4 class="blog__single__title">WCAG 2 FAQ</h4></a>
+              <p class="blog__single__paragraph">This is a sample text <a href="#"><span class="blog__single__paragraph--read-more">WCAG 2 FAQ...</span></a></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/blog-1.png" alt="">
+             
+              <a href="#"><h4 class="blog__single__title">W3C Accessibility</h4></a>
+              <p class="blog__single__paragraph">This is a sample text <a href="#"><span class="blog__single__paragraph--read-more">W3C Accessibility...</span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer footer--bg">
+    <div class="container text-center">
+      <h1 class="footer__title">Web accessibility Testing Tool</h1>
+      <ul class="footer__contact-information">
+        <li><a href="tel:5555555555"><i class="material-icons">phone</i> Hotline (+775) 00 00 00 00</a></li>
+        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> abera@nevada.unr.edu</a></li>
+        <li><a href="#"><i class="material-icons">location_on</i> Sample Text.</a></li>
+      </ul>
+    </div>
+    <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
+    <div class="container text-center">
+      <div class="social-icon">
+        <ul>
+          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
+          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
+          
+        </ul>
+      </div>
+      <p class="footer__paragraph">Web accessibility Testing Tool , All Rights Reserved.</p>
+    </div>
+  </footer>
+</div>
+ <script src="js/accessibilityTool.js"></script>
+  <script src="assets/jquery/jquery-3.2.1.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/mixitup.js"></script>
+ 
+
+  <script>
+    $('a').click(function(e)
+      {
+        e.preventDefault();
+      });
+
+    // calling mixitup
+    var mixer = mixitup(".portfolio");
+  </script>
+</body>
+</html>  
